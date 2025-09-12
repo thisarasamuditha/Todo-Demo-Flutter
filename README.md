@@ -1,16 +1,44 @@
-# todo_demo
+# Todo Demo
 
-A new Flutter project.
+A basic Flutter application for managing todos.
 
-## Getting Started
+## Setup
 
-This project is a starting point for a Flutter application.
+### From GitHub
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   ```
+   git clone https://github.com/dinethsiriwardana/Todo-Demo-Flutter.git
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Navigate to the project directory:
+
+   ```
+   cd Todo-Demo-Flutter
+   ```
+
+3. Ensure Flutter is installed and configured:
+
+   ```
+   flutter doctor
+   ```
+
+4. Run the app on a connected device or emulator:
+   ```
+   flutter build apk
+   ```
+
+## Development Commands
+
+- Check Flutter installation: `flutter doctor`
+- Clean the project: `flutter clean`
+- Analyze code for issues: `flutter analyze`
+- Format code: `flutter format .`
+- Run tests: `flutter test`
+
+## Resources
+
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Flutter Codelab](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
