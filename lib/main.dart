@@ -25,6 +25,15 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  int count = 0;
+
+  void increment() {
+    setState(() {
+      count++;
+      // Update the UI
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,6 +62,24 @@ class _HomePageState extends State<HomePage> {
             },
           ),
         ],
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              "Count is $count",
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                increment();
+                print(count);
+              },
+              child: Text("Increment", style: TextStyle(fontSize: 20)),
+            ),
+          ],
+        ),
       ),
     );
   }
