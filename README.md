@@ -24,7 +24,13 @@ A basic Flutter application for managing todos.
    flutter doctor
    ```
 
-4. Run the app on a connected device or emulator:
+4. Ensure downlaod all the pubs:
+
+   ```
+   flutter pub get
+   ```
+
+5. Run the app on a connected device or emulator:
    ```
    flutter build apk
    ```
